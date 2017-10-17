@@ -1,0 +1,86 @@
+body {
+    background-color: #222222;
+    color: white;
+    position: inherit;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 100px;
+    border-collapse: inherit;
+}
+
+button {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #fff;
+    border-color: #f05f40;
+    background-color: #f05f40;
+}
+
+#createButton {
+    width: 100%;
+    margin-left: 0px;
+}
+
+#divCreateItem{
+    text-align: center;
+}
+
+#app {
+    width: 50%;
+}
+
+td {
+    width: 50%;
+}
+
+form {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+.fixed-top {
+    position: inherit;
+}
+
+#footer{
+    background-color: #222222;
+	position: fixed;
+	width: 100%;
+	bottom:0px;
+}
+
+/* ==========================================================================
+Mobile styles
+========================================================================== */
+/* Landscape phones and down */
+@media (max-height: 500px) {
+    #app {
+        width: 100%;
+    }
+}
+
+@media (min-height: 501px) and (max-width: 480px) {
+    #app {
+        width: 100%;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 481px) and (max-width: 600px) {
+    #app {
+        width: 90%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    #app {
+        width: 80%;
+    }
+}

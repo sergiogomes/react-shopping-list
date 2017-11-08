@@ -5,10 +5,10 @@ The ideia of this app is to compare shopping list prices from different places a
 
 * Features
 > Add new items;
-Checks if the new item already exists in the list;
-Check or uncheck them (green / red);
-Change the item name;
-Remove items;
+> Checks if the new item already exists in the list;
+> Check or uncheck them (green / red);
+> Change the item name;
+> Remove items;
 
 In order to run it, you will need to clone the project from my account and then run some commands:
 ```
